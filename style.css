@@ -1,0 +1,103 @@
+
+/* style.css */
+
+/* Styling untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+  }
+  
+  /* Styling untuk container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling untuk judul */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk tombol "Tambah Data" */
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk tabel */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: khaki;
+  }
+  
+  /* Styling untuk baris tabel */
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling untuk baris header tabel */
+  .table thead th {
+    background-color: rebeccapurple;
+  }
+  
+  /* Styling untuk tombol */
+  .btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-info {
+    background-color: cornflowerblue;
+    color: paleturquoise;
+  }
+  
+  .btn-danger {
+    background-color: lightblue;
+    color: honeydew;
+  }
+  
+  .btn-primary,
+  .btn-primary:hover {
+    background-color: fuchsia;
+  }
+  
+  /* Styling untuk modal */
+  .modal-body {
+    padding: 20px;
+  }
+  
+  /* Styling untuk form dalam modal */
+  .modal-body form {
+    margin-bottom: 0;
+  }
+  
+  /* Styling untuk pesan alert */
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .alert-success {
+    background-color: white;
+    border-color: green;
+    color: lightgreen;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: darkred;
+    color: red;
+  }
+  
